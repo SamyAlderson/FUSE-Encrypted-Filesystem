@@ -1,16 +1,18 @@
 # Design Document: FUSE-Encrypted-Filesystem
 
 ## Overview
-Un système de fichiers chiffré basé sur FUSE, implémenté en Rust
+# FUSE-Encrypted-Filesystem
+[![Rust](https://img.shields.io/badge/Rust-1.64.0-orange.svg)](https://www.rust-lang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://op
 
 ## Architecture
-Le projet est structuré de manière modulaire pour faciliter la maintenance.
+The project follows a modular architecture for maintainability and extensibility.
 
-## Choix techniques
-- Langage: rust
-- Approche: Implementation directe avec focus sur la performance
+## Technical Choices
+- Language: rust
+- Approach: Direct implementation with focus on correctness and performance
 
-## Améliorations futures
-- Optimisation des performances
-- Ajout de tests supplémentaires
-- Documentation enrichie
+## Future Improvements
+- Performance optimization
+- Additional test coverage
+- Enhanced documentation
